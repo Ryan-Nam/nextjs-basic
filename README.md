@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+```bash 
 npm run dev
 # or
 yarn dev
@@ -38,5 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     - using generateStaticParams functiono - SSG
 - Dynamic Routing
     - slug - SSR
+
+- 404: after 13.3 version, no need to generate pages/404.tsx
+    - non-found.tsx will be applied to every 404 pages now on.
+
 
 
