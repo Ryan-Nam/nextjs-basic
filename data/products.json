@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1234",
+        "name": "Emerald Ringsadasdsad",
+        "price": 25,
+        "image": "jeans.jpg"
+    },
+    {
+        "id": "1235",
+        "name": "Pink Hoops",
+        "price": 35,
+        "image": "tshirt.jpg"
+    },
+    {
+        "id": "1236",
+        "name": "Silver 925 Rings",
+        "price": 25,
+        "image": "clothes.jpg"
+    },
+    {
+        "id": "1237",
+        "name": "Fresh Water Peal Necklace",
+        "price": 55,
+        "image": "shoes.jpg"
+    }
+]

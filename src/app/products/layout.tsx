@@ -1,4 +1,11 @@
+import Link from 'next/link';
 import styles from './layout.module.css';
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'nice website | All products',
+  description: 'Check our amazing products'
+}
 
 export default function ProductsLayout({
   children,
@@ -8,8 +15,8 @@ export default function ProductsLayout({
   return (
     <>
       <nav className={styles.nav}>
-        <a href=''>Women's Clothes</a>
-        <a href=''>Men's Clothes</a>
+        <Link href='/products/women'>Women Clothes</Link>
+        <Link href='/products/men'>Men Clothes</Link>
       </nav>
       <section className={styles.product}>{children}</section>
     </>
